@@ -1,0 +1,15 @@
+[com.suny.feishulianaiguanjia.feishu]
+# 5位：分 时 天 月 周
+# 6位：秒 分 时 天 月 周
+#需要执行的类名和方法
+#每1分钟执行一次
+#Demo.timingAt8 =* */1 * * *
+#每10秒执行一次
+#Demo.timingAt8 =*/10 * * * * *
+
+#每天7.59执行定时任务
+Demo.timingAt8 =0 59 7 * * *
+
+#每天13.14执行定时任务
+Demo.timingAt8 =0 14 13 * * *
+
